@@ -11,185 +11,57 @@
 <body id="page_accueil">
 
     <header id="entete">
-
         <h1 id="logo">Paris Events</h1>
-
-        <nav id="navigation">
-            <a class="lien_navigation" href="index.html">Accueil</a>
-            <a class="lien_navigation" href="#liste_evenements">undefined</a>
-            <a class="lien_navigation" href="#categories">undefined</a>
-            <a class="lien_navigation" href="#carte">undefined</a>
-        </nav>
-
+        <nav id="navigation"></nav>
     </header>
 
     <main id="contenu_principal">
 
-        <section id="hero">
-
+        <section id="presentation">
             <article class="bloc_presentation">
-                <h2 class="titre_section">undefined</h2>
-
-                <p class="texte_presentation">
-                    Retrouvez les expositions, concerts, festivals et activités organisés à Paris.
-                </p>
-
-                <ul class="liste_filtres_rapides">
-                    <li class="filtre_rapide">undefined</li>
-                    <li class="filtre_rapide">undefined</li>
-                    <li class="filtre_rapide">undefined</li>
-                    <li class="filtre_rapide">undefined</li>
-                    <li class="filtre_rapide">undefined</li>
-                </ul>
+                <h2 id="titre_presentation" class="titre_section"></h2>
+                <p id="texte_presentation" class="texte_presentation"></p>
+                <ul id="filtres_rapides" class="liste_filtres_rapides"></ul>
             </article>
 
             <aside class="bloc_prochains_evenements">
-                <h2 class="titre_section">undefined</h2>
-
-                <ol class="liste_prochains_evenements">
-                    <li class="prochain_evenement">undefined</li>
-                    <li class="prochain_evenement">undefined</li>
-                    <li class="prochain_evenement">undefined</li>
-                </ol>
+                <h2 id="titre_prochains" class="titre_section"></h2>
+                <ol id="prochains_evenements" class="liste_prochains_evenements"></ol>
             </aside>
-
         </section>
 
         <section id="slider">
-
-            <button class="bouton_slider" type="button">&#10094;</button>
+            <button id="slider_precedent" class="bouton_slider" type="button">&#10094;</button>
 
             <figure class="figure_slider">
-                <img class="image_slider" src="images/larsbo.jpg" alt="Affiche de l'exposition">
-                <figcaption class="texte_slider">
-                </figcaption>
+                <img id="image_slider" class="image_slider" src="" alt="">
+                <figcaption id="texte_slider" class="texte_slider"></figcaption>
             </figure>
 
-            <button class="bouton_slider" type="button">&#10095;</button>
-
+            <button id="slider_suivant" class="bouton_slider" type="button">&#10095;</button>
         </section>
 
         <section id="zone_filtres">
-
             <form id="formulaire_filtres">
-
-                <label class="label_filtre" for="recherche">undefined</label>
+                <label id="label_recherche" class="label_filtre" for="recherche"></label>
                 <input class="champ_filtre" type="search" id="recherche" placeholder="Nom d'un événement">
 
-                <label class="label_filtre" for="categorie">undefined</label>
-                <select class="champ_filtre" id="categorie">
-                    <option>undefined</option>
-                    <option>undefined</option>
-                    <option>undefined</option>
-                    <option>undefined</option>
-                    <option>undefined</option>
-                </select>
+                <label id="label_categorie" class="label_filtre" for="categorie"></label>
+                <select class="champ_filtre" id="categorie"></select>
 
-                <label class="label_filtre" for="prix">undefined</label>
-                <select class="champ_filtre" id="prix">
-                    <option>undefined</option>
-                    <option>undefined</option>
-                    <option>undefined</option>
-                </select>
+                <label id="label_prix" class="label_filtre" for="prix"></label>
+                <select class="champ_filtre" id="prix"></select>
 
-                <button id="bouton_tri" type="submit">undefined</button>
-
+                <button id="bouton_tri" type="submit"></button>
             </form>
-
         </section>
 
         <section id="liste_evenements">
-
-            <h2 class="titre_section">undefined</h2>
-
-            <article class="carte_evenement">
-
-                <img class="image_evenement" src="images/expo.jpg" alt="Exposition">
-
-                <h3 class="titre_evenement">undefined</h3>
-
-                <p class="resume_evenement">undefined</p>
-                <p class="date_evenement">📅 undefined</p>
-                <p class="lieu_evenement">📍 undefined</p>
-                <p class="prix_evenement">💰 undefined</p>
-
-                <ul class="liste_tags">
-                    <li class="tag_evenement">undefined</li>
-                    <li class="tag_evenement">undefined</li>
-                </ul>
-
-                <footer class="boutons_evenement">
-                    <a class="bouton_detail" href="detail.html">undefined</a>
-                    <a class="bouton_reserver" href="#">undefined</a>
-                </footer>
-
-            </article>
-
-            <article class="carte_evenement">
-
-                <img class="image_evenement" src="images/jazz.jpg" alt="Concert">
-
-                <h3 class="titre_evenement">undefined</h3>
-
-                <p class="resume_evenement">undefined</p>
-                <p class="date_evenement">📅 undefined</p>
-                <p class="lieu_evenement">📍 undefined</p>
-                <p class="prix_evenement">💰 undefined</p>
-
-                <ul class="liste_tags">
-                    <li class="tag_evenement">undefined</li>
-                    <li class="tag_evenement">undefined</li>
-                </ul>
-
-                <footer class="boutons_evenement">
-                    <a class="bouton_detail" href="detail.html">undefined</a>
-                    <a class="bouton_reserver" href="#">undefined</a>
-                </footer>
-
-            </article>
-
-            <article class="carte_evenement">
-
-                <img class="image_evenement" src="images/marais.jpg" alt="Visite">
-
-                <h3 class="titre_evenement">undefined</h3>
-
-                <p class="resume_evenement">undefined</p>
-                <p class="date_evenement">📅 undefined</p>
-                <p class="lieu_evenement">📍 undefined</p>
-                <p class="prix_evenement">💰 undefined</p>
-
-                <ul class="liste_tags">
-                    <li class="tag_evenement">undefined</li>
-                    <li class="tag_evenement">undefined</li>
-                </ul>
-
-                <footer class="boutons_evenement">
-                    <a class="bouton_detail" href="detail.html">undefined</a>
-                    <a class="bouton_reserver" href="#">undefined</a>
-                </footer>
-
-            </article>
-
-        </section>
-
-        <section id="categories">
-
-            <h2 class="titre_section">undefined</h2>
-
-            <ul class="liste_categories">
-                <li class="categorie_item">undefined</li>
-                <li class="categorie_item">undefined</li>
-                <li class="categorie_item">undefined</li>
-                <li class="categorie_item">undefined</li>
-                <li class="categorie_item">undefined</li>
-            </ul>
-
+            <h2 id="titre_liste_evenements" class="titre_section"></h2>
         </section>
 
         <section id="carte">
-
-            <h2 class="titre_section">undefined</h2>
+            <h2 id="titre_carte" class="titre_section"></h2>
 
             <figure class="figure_carte">
                 <iframe
@@ -197,18 +69,17 @@
                     src="https://www.openstreetmap.org/export/embed.html?bbox=2.25%2C48.80%2C2.45%2C48.90&amp;layer=mapnik">
                 </iframe>
 
-                <figcaption class="texte_carte">
-                    Localisation des événements.
-                </figcaption>
+                <figcaption id="texte_carte" class="texte_carte"></figcaption>
             </figure>
-
         </section>
 
     </main>
 
     <footer id="pied_page">
-        <p class="texte_footer">© 2026 Paris Events</p>
+        <p id="texte_footer" class="texte_footer"></p>
     </footer>
+
+    <script type="module" src="main.js"></script>
 
 </body>
 
